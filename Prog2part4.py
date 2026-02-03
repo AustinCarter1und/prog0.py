@@ -1,4 +1,5 @@
-# Ask for number of completed credits
+name: Austin Carter
+email:austin.carter.1@#und.edu
 credits = int(input("Number of completed credits: "))
 
 # Determine class rank
