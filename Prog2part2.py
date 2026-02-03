@@ -1,4 +1,5 @@
-# Ask for x and y values
+name: Austin Carter
+email:austin.carter.1@#und.edu# Ask for x and y values
 x = int(input("x: "))
 y = int(input("y: "))
 
