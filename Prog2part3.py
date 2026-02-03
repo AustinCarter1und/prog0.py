@@ -1,4 +1,5 @@
-# Ask for inputs
+name: Austin Carter
+email:austin.carter.1@#und.edu
 num1 = float(input("Enter the first number: "))
 op = input("Enter the operation: ")
 num2 = float(input("Enter the second number: "))
