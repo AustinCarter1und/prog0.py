@@ -1,4 +1,5 @@
-# Ask for an integer value
+name: Austin Carter
+email:austin.carter.1@#und.edu
 value = int(input("Enter an integer value: "))
 
 # Check if the value is within the 400s
