@@ -1,4 +1,6 @@
 # Prog2part1.py
+name: Austin Carter
+email:austin.carter.1@#und.edu
 
 # Ask for number of checks
 checks = int(input("Number of checks: "))
