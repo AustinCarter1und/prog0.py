@@ -1,10 +1,8 @@
-# Prog2part4.py
-# Author: Austin Carter
+# Name: Austin Carter
 # Email: austin.carter.1@und.edu
 
 credits = int(input("Number of completed credits: "))
 
-# Determine class rank
 if credits <= 23:
     rank = "Freshman"
 elif credits <= 59:
@@ -14,5 +12,4 @@ elif credits <= 89:
 else:
     rank = "Senior"
 
-# Output result
-print("Class rank:", rank)
+print(rank)
