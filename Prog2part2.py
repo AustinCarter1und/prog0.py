@@ -1,5 +1,8 @@
-name: Austin Carter
-email:austin.carter.1@#und.edu# Ask for x and y values
+# Prog2part2.py
+# Author: Austin Carter
+# Email: austin.carter.1@und.edu
+
+# Ask for x and y values
 x = int(input("x: "))
 y = int(input("y: "))
 
@@ -15,6 +18,3 @@ else:
 
 # Output result
 print(f"({x}, {y}) is in: quadrant {quadrant}")
-name: Austin Carter
-email:austin.carter.1@#und.edu
-
