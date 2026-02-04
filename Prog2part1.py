@@ -23,4 +23,7 @@ service_fee = base_fee + (checks * rate)
 
 # Display result rounded to two decimals
 print(f"Service fee: ${service_fee:.2f}")
+name: Austin Carter
+email:austin.carter.1@#und.edu
+
 
