@@ -1,12 +1,9 @@
-# Prog2part2.py
-# Author: Austin Carter
+# Name: Austin Carter
 # Email: austin.carter.1@und.edu
 
-# Ask for x and y values
 x = int(input("x: "))
 y = int(input("y: "))
 
-# Determine quadrant
 if x > 0 and y > 0:
     quadrant = "I"
 elif x < 0 and y > 0:
@@ -16,5 +13,4 @@ elif x < 0 and y < 0:
 else:
     quadrant = "IV"
 
-# Output result
-print(f"({x}, {y}) is in: quadrant {quadrant}")
+print(f"quadrant {quadrant}")
