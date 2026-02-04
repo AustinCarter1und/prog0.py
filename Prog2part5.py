@@ -1,14 +1,15 @@
-name: Austin Carter
-email:austin.carter.1@#und.edu
+# Prog2part5.py
+# Author: Austin Carter
+# Email: austin.carter.1@und.edu
+
 value = int(input("Enter an integer value: "))
 
 # Check if the value is within the 400s
-if value >= 400 and value <= 499:
+if 400 <= value <= 499:
     answer = "yes"
 else:
     answer = "no"
 
 # Output result
 print("Within range?", answer)
-name: Austin Carter
-email:austin.carter.1@#und.edu
+
