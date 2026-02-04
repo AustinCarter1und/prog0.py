@@ -1,5 +1,7 @@
-name: Austin Carter
-email:austin.carter.1@#und.edu
+# Prog2part4.py
+# Author: Austin Carter
+# Email: austin.carter.1@und.edu
+
 credits = int(input("Number of completed credits: "))
 
 # Determine class rank
@@ -14,5 +16,3 @@ else:
 
 # Output result
 print("Class rank:", rank)
-name: Austin Carter
-email:austin.carter.1@#und.edu
