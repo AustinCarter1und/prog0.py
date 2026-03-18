@@ -21,16 +21,14 @@ def main():
     class_passed = 0
     honor_points = 0.0
 
-    # Display table of classes
     for line in infile:
         line = line.strip()
         if line == "":
             continue
 
-        parts = line.split(":")
-        classname = parts[0]
-        grade = parts[1].upper()
-        credits = int(parts[2])
+        classname, grade, credits = line.split(":")
+        grade = grade.upper()
+        credits = int(credits)
 
         print(f"{classname:<8} {grade:<1} {credits:>2}")
 
@@ -68,3 +66,4 @@ def main():
     print(f"Classes passed   {class_passed:>5}")
 
 main()
+
