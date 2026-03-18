@@ -9,18 +9,15 @@ and reports statistics about the values within that range.
 def main():
     filename = input("Enter file name: ")
 
-    # Check if file exists
     try:
         infile = open(filename, "r")
     except:
         print("File does not exist")
         return
 
-    # Read all data once
     data = infile.readlines()
     infile.close()
 
-    # If file exists but contains no data
     if len(data) == 0:
         print("No data in file")
         return
@@ -35,7 +32,6 @@ def main():
     found_low = False
     found_high = False
 
-    # Process each value
     for line in data:
         value = float(line.strip())
 
@@ -53,7 +49,6 @@ def main():
             if value == high:
                 found_high = True
 
-    # If no values in range
     if count == 0:
         print("Total number of values within range: 0")
         print("Minimum value: 0")
@@ -61,7 +56,6 @@ def main():
         print("Average: 0.00")
         return
 
-    # Required output
     print("Total number of values within range:", count)
     print("Minimum value:", minimum)
     print("Maximum value:", maximum)
@@ -75,3 +69,4 @@ def main():
     print(f"Average: {average:.2f}")
 
 main()
+
