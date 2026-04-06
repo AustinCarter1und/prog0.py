@@ -68,7 +68,7 @@ def findMax(theList):
 
 def findMin(theList):
     smallest = theList[0]
-    for v in theList):
+    for v in theList:
         if v < smallest:
             smallest = v
     return smallest
