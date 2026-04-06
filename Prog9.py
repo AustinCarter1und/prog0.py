@@ -68,7 +68,7 @@ def findMax(theList):
 
 def findMin(theList):
     smallest = theList[0]
-    for v in theList:
+    for v in theList):
         if v < smallest:
             smallest = v
     return smallest
@@ -107,4 +107,7 @@ def main():
     print("\nNames starting with 's':", startsWith(names, "s"))
 
 
-main()
+# IMPORTANT: prevents Gradescope from running main() during import
+if __name__ == "__main__":
+    main()
+
