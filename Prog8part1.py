@@ -79,7 +79,7 @@ def calcRange(theList):
 
 
 def main():
-    # Test 1: Read from file
+    # Test 1: fillList
     fileName = input("Enter a filename: ")
     values = fillList(fileName)
 
