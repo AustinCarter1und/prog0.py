@@ -2,9 +2,8 @@
 # Author: Austin Carter
 # Email: austin.carter.1@und.edu
 # Description:
-# Part 1 – Ask for a filename, then ask for a list of songs.
-# Each song has a title and a time in minutes:seconds format.
-# Write each song to the file with fields separated by a tab.
+# Part 1 – Ask for a filename, then repeatedly ask for song title and time.
+# Stop when a blank title is entered. Write each song to the file separated by a tab.
 
 def main():
     filename = input("Enter data file name: ").strip()
@@ -19,7 +18,6 @@ def main():
 
             time_str = input("Time: ").strip()
 
-            # Write one line: title <tab> time
             outfile.write(title + "\t" + time_str + "\n")
 
 
