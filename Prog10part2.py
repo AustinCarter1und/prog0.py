@@ -1,10 +1,5 @@
-# Prog10part2.py
 # Author: Austin Carter
 # Email: austin.carter.1@und.edu
-# Description:
-# Part 2 – Read student/credit data from a file, process the dictionary
-# using required functions, and display results.
-
 def readStudentInfo(fileName):
     students = {}
     with open(fileName, "r") as infile:
