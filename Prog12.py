@@ -1,7 +1,6 @@
-# Prog12.py
-# Austin Carter
-# University of North Dakota
-
+# Name: Austin Carter
+# Email: austin.carter.1@und.edu
+# Program: Prog12.py
 def average(dictionary):
     if len(dictionary) == 0:
         return -1
